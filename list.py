@@ -23,4 +23,16 @@
 # print(list.copy())  # copy list
 # print(list)
 
+# list1 = [1, 2]
+# list2 = [1, 2]
+# print(list1 == list2)   # true // is values are same
+# print(list1 is list2)   # false // check for same memory
 
+# print("sumit verma".split())    # default seperater is ' ', you can use ',' 
+# list = ['sumit', 'verma']
+# print(','.join(list))
+
+### List vs Array ### list module = to javascript array
+# List                      Array
+# Any data type             Fixed data type
+# Slow                      Fast
