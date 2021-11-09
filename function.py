@@ -35,3 +35,9 @@
 # default_params('sumit')
 # default_params('sumit', 25, 'cricket')
 
+# # function returning two value
+# def func (a, b) :       # funciton returing a tuple
+#     sum = a + b
+#     multi = a * b
+#     return sum, multi
+# print(func(2, 3))

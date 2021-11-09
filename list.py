@@ -36,3 +36,27 @@
 # List                      Array
 # Any data type             Fixed data type
 # Slow                      Fast
+
+### List vs String ### list module = to javascript String
+# List                      String
+# mutable                   immutable
+# Any data type             Only character
+
+# fruits = ['apple', 'banana', 'orange']
+# for fruit in fruits :
+#     print(fruit)
+# i = 0
+# while i < len(fruits) :
+#     print(fruits[i])
+#     i += 1
+
+# list_inside_list = [[1, 2, 3], [4, 5, 6]]
+# print(list_inside_list[1][0])
+
+# numbers = list(range(1, 11))
+# print(type(numbers))
+# print(numbers.pop())    # pop last value and return
+# print(numbers.index(5))     # position of value 5
+# print(numbers.index(5, 2))     # (value, start, stop)
+# print(min(numbers))
+# print(max(numbers))
