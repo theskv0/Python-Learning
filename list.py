@@ -60,3 +60,22 @@
 # print(numbers.index(5, 2))     # (value, start, stop)
 # print(min(numbers))
 # print(max(numbers))
+
+
+################# List Comprehension #################
+
+# squares = []
+# for i in range(1, 11) :
+#     squares.append(i**2)
+# print(squares)
+# print([i**2 for i in range(1, 11)])
+# print([-i for i in range(1, 11)])
+# names = ['Sumit', 'Kumar', 'Verma']
+# print([name[0] for name in names])
+
+# print([i for i in range(1, 11) if i%2 == 0])   # even numbers
+# print([str(i) for i in range(1, 11) if (i%2 != 0 and i != 5)])
+
+# print([i*2 if (i%2 == 0) else -i for i in [1, 2, 3, 4, 5]])
+
+# print([ [i for i in range(1, 4)] for j in range(1, 4) ])

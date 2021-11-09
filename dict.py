@@ -65,3 +65,12 @@
 # dict6 = dict4.copy()   # pass by value
 # print(dict5 is dict4)
 # print(dict6 is dict4)
+
+
+
+################# Dictionary Comprehension #################
+
+# print({i : i**2 for i in range(1, 4)})
+# name = "sumit verma"
+# print({i : name.count(i) for i in name})
+# print({i: 'even' if (i%2 == 0) else 'odd' for i in range(1, 11)})
